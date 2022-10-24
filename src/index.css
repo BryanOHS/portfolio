@@ -1,0 +1,52 @@
+:root {
+    --text: #2B3044;
+    --line: white;
+    --line-active: white;
+}
+
+@font-face {
+    font-family: 'Mjölnir';
+    src: url(./Assets/Fonts/Mjolnir.ttf);
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(./Assets/Fonts/Helvetica-Bold.ttf);
+}
+@font-face {
+    font-family: 'Norse';
+    src: url(./Assets/Fonts/norse.regular.otf);
+}
+@font-face {
+    font-family: 'WildDream';
+    src: url(./Assets/Fonts/WildDreams.ttf);
+}
+@font-face {
+    font-family: 'Njord';
+    src: url(./Assets/Fonts/Njord-Alternate.ttf);
+}
+@font-face {
+    font-family: 'Forest';
+    src: url(./Assets/Fonts/Forestarms.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("./Assets/Images/background5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+
+}
+
+
+
+.Yeah{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
